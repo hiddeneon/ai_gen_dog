@@ -6,43 +6,36 @@
     </head>
 
     <body>
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 200 200"
-  width="200"
-  height="200">
-  <g>
-    <!-- Body -->
-    <circle cx="100" cy="100" r="50" fill="#E2C0A6" />
-    <!-- Eyes -->
-    <circle cx="80" cy="85" r="8" fill="#3A3331" />
-    <circle cx="120" cy="85" r="8" fill="#3A3331" />
-    <!-- Nose -->
-    <circle cx="100" cy="105" r="5" fill="#3A3331" />
-    <!-- Mouth -->
-    <path
-      d="M 90 115 Q 100 125, 110 115"
-      stroke="#3A3331"
-      stroke-width="5"
-      fill="none" />
-    <!-- Ears -->
-    <path
-      d="M 60 60 Q 50 40, 80 40 Q 70 60, 60 60"
-      fill="#E2C0A6"
-      stroke="#E2C0A6"
-      stroke-width="2" />
-    <path
-      d="M 140 60 Q 130 40, 160 40 Q 150 60, 140 60"
-      fill="#E2C0A6"
-      stroke="#E2C0A6"
-      stroke-width="2" />
-    <!-- Tail -->
-    <path
-      d="M 150 130 Q 160 140, 170 130"
-      stroke="#E2C0A6"
-      stroke-width="10"
-      fill="none" />
-  </g>
-</svg>
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Ears -->
+        <path d="M50,50 Q45,20 70,40 Q95,20 90,50" fill="#b5651d" stroke="#000" stroke-width="2"/>
+        <path d="M150,50 Q155,20 130,40 Q105,20 110,50" fill="#b5651d" stroke="#000" stroke-width="2"/>
+        
+        <!-- Head -->
+        <circle cx="100" cy="80" r="50" fill="#d9a066" stroke="#000" stroke-width="2"/>
+        
+        <!-- Eyes -->
+        <circle cx="80" cy="70" r="10" fill="#fff" stroke="#000" stroke-width="2"/>
+        <circle cx="120" cy="70" r="10" fill="#fff" stroke="#000" stroke-width="2"/>
+        <circle cx="80" cy="70" r="5" fill="#000"/>
+        <circle cx="120" cy="70" r="5" fill="#000"/>
+        
+        <!-- Nose -->
+        <ellipse cx="100" cy="90" rx="10" ry="5" fill="#000"/>
+        
+        <!-- Mouth -->
+        <path d="M90,100 Q100,110 110,100" stroke="#000" stroke-width="2" fill="transparent"/>
+        <path d="M90,100 Q100,120 110,100" stroke="#000" stroke-width="2" fill="transparent"/>
+        
+        <!-- Body -->
+        <path d="M60,130 Q100,180 140,130" fill="#d9a066" stroke="#000" stroke-width="2"/>
+        
+        <!-- Legs -->
+        <path d="M70,130 Q70,160 80,160 Q90,160 90,130" fill="#b5651d" stroke="#000" stroke-width="2"/>
+        <path d="M130,130 Q130,160 120,160 Q110,160 110,130" fill="#b5651d" stroke="#000" stroke-width="2"/>
+        
+        <!-- Tail -->
+        <path d="M140,130 Q180,120 160,100" fill="transparent" stroke="#b5651d" stroke-width="6"/>
+      </svg>
     </body>
 </html>
